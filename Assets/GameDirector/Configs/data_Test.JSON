@@ -1,0 +1,27 @@
+{
+  "MaxHealth": 10,
+  "MissilesUnlocked": true,
+  "MissileCapacity": 10,
+  "CurrentMissileAmmo": 10,
+  "MissileBlastRadius": 1,
+  "AirMeleeUnlocked": true,
+  "AirBlastShotUnlocked": true,
+  "RollAttackUnlocked": true,
+  "HoverUnlocked": true,
+  "MaxHoverTime": 1,
+  "GroundSlamUnlocked": true,
+  "GroundSlamRadius": 1,
+  "missileConfigData": {
+    "TimeToLive": 1,
+    "DamageType": 1,
+    "BaseDamage": 1,
+    "OverrideHitRecoveryTime": 1,
+    "ForceImpulse": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "NumberOfProjectiles": 1,
+    "ProjectileSpeed": 1
+  }
+}

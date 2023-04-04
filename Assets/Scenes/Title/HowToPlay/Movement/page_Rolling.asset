@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244efb4ab224f2840b35b1acf73379f6, type: 3}
+  m_Name: page_Rolling
+  m_EditorClassIdentifier: 
+  pageHeading: Rolling
+  pageKeyboardControls: Use <sprite=23> to perform a roll.
+  pageGamepadControls: Use <sprite=1> to perform a roll.
+  pageDescription: You will roll in the direction you are moving. If you press the
+    roll button while standing still, you will roll in the direction you are facing.
+    While rolling, you have a brief period of invincibility.

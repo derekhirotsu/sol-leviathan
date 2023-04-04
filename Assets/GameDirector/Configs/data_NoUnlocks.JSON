@@ -1,0 +1,14 @@
+{
+  "MaxHealth": 10,
+  "MissilesUnlocked": false,
+  "MissileCapacity": 0,
+  "CurrentMissileAmmo": 0,
+  "MissileBlastRadius": 0,
+  "AirMeleeUnlocked": false,
+  "AirBlastShotUnlocked": false,
+  "RollAttackUnlocked": false,
+  "HoverUnlocked": false,
+  "MaxHoverTime": 0,
+  "GroundSlamUnlocked": false,
+  "GroundSlamRadius": 0
+}

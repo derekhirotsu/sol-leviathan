@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: amp_Foliage
+  m_Shader: {fileID: 4800000, guid: 77a5ccf8aa336844282cfc90bf17e004, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _OpacityMask:
+        m_Texture: {fileID: 2800000, guid: e1b4bbb6464f47d489e3ca877ef21a4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfMap:
+        m_Texture: {fileID: 2800000, guid: e1b4bbb6464f47d489e3ca877ef21a4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BendStr: 1.07
+    - _Cutoff: 0.5
+    - _PhongSpecular: 0.4
+    - _Shininess: 1
+    - _SubsurfDistortion: 1
+    - __dirty: 0
+    m_Colors:
+    - _MainColor: {r: 0.46226418, g: 0.2551175, b: 0.26504934, a: 1}
+    - _SSSColor: {r: 0.1981132, g: 0, b: 0.12736689, a: 1}
+    - _WindDirection: {r: 30, g: 30, b: 0, a: 0}
+  m_BuildTextureStacks: []

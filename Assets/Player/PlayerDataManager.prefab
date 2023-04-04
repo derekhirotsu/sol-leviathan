@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &586077982494599259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 586077982494599257}
+  - component: {fileID: 586077982494599258}
+  m_Layer: 0
+  m_Name: PlayerDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &586077982494599257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586077982494599259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &586077982494599258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586077982494599259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233e6574d9fb9c0488dc824748b3c5bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonData: {fileID: 4900000, guid: 9cb5773f26d33044dbdbbc55ca7c662a, type: 3}
+  playerData:
+    MaxHealth: 0
+    MissilesUnlocked: 0
+    MissileCapacity: 0
+    CurrentMissileAmmo: 0
+    MissileBlastRadius: 0
+    AirMeleeUnlocked: 0
+    AirBlastShotUnlocked: 0
+    RollAttackUnlocked: 0
+    HoverUnlocked: 0
+    MaxHoverTime: 0
+    GroundSlamUnlocked: 0
+    GroundSlamRadius: 0
+    MissileProjectileConfig:
+      DamageType: {fileID: 0}
+      Damage: 0
+      FireRate: 0
+      ForceImpulse: {x: 0, y: 0, z: 0}
+      NumberOfProjectiles: 0
+      ProjectileSpeed: 0
+    AirShotConfig:
+      DamageType: {fileID: 0}
+      Damage: 0
+      FireRate: 0
+      ForceImpulse: {x: 0, y: 0, z: 0}
+      NumberOfProjectiles: 0
+      ProjectileSpeed: 0
+  MaxHealth: {fileID: 11400000, guid: 42e59ad022ee35140810dbad46c568c6, type: 2}
+  MissilesUnlocked: {fileID: 11400000, guid: 9360057e4643ed342a909796ab9b12aa, type: 2}
+  MissileCapacity: {fileID: 11400000, guid: a03c1c2e6da04294680abb514ae118a4, type: 2}
+  CurrentMissileAmmo: {fileID: 11400000, guid: de2ae0c4416c4ed4e9880f23c055b9cb, type: 2}
+  MissileBlastRadius: {fileID: 11400000, guid: 22af96e6b2646074bbe0f3ebe38d36bb, type: 2}
+  AirMeleeUnlocked: {fileID: 11400000, guid: 66b64da0ea49ac6408c3371450701491, type: 2}
+  AirBlastShotUnlocked: {fileID: 11400000, guid: e6105297cc13ccf48a897526d16bf96c, type: 2}
+  RollAttackUnlocked: {fileID: 11400000, guid: 3a0c17223066b4d48a605f3897b607f6, type: 2}
+  HoverUnlocked: {fileID: 11400000, guid: f46b10deb4c2bf448940a6e5a1ddc1b5, type: 2}
+  MaxHoverTime: {fileID: 11400000, guid: 62920b957b677a045bb5efbc4604df48, type: 2}
+  GroundSlamUnlocked: {fileID: 11400000, guid: 4b12bee8b126dd745bb8eeb054e8ab4d, type: 2}
+  GroundSlamRadius: {fileID: 11400000, guid: 6106a66493503154689a91ad4d7b3541, type: 2}

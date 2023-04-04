@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec514dfad6dd3341ae1c6de491c504a, type: 3}
+  m_Name: SniperStateCollection
+  m_EditorClassIdentifier: 
+  idle: {fileID: 0}
+  chase: {fileID: 0}
+  nearbyChase: {fileID: 0}
+  attackCooldown: {fileID: 11400000, guid: 5e5cb84acdff4ac4eb917d16729257ab, type: 2}
+  ambush: {fileID: 11400000, guid: 4f3831c1e080be14fb65b684e5d561c2, type: 2}
+  movingToAmbushState: {fileID: 11400000, guid: 866b82f473eaa9448b8cf5b7231b2624, type: 2}
+  aiming: {fileID: 11400000, guid: a75f337140820ce4c9649d245e4919ca, type: 2}
+  firing: {fileID: 11400000, guid: e7cb6f82235be034a922c84b3f6619fd, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519c0ee4557cd80429a8d7ea9604e176, type: 3}
+  m_Name: PlayerStateCollection
+  m_EditorClassIdentifier: 
+  groundedIdle: {fileID: 11400000, guid: 572f2b09ea43d6d47bbdf59f987867cd, type: 2}
+  aerialIdle: {fileID: 11400000, guid: 263a8fb728351c8488d6b30db2fdd2cb, type: 2}
+  rolling: {fileID: 11400000, guid: 6fdc372d7d199644793ffbf4b56bd034, type: 2}
+  groundedAimingBlaster: {fileID: 11400000, guid: 25fecf7bba7add9428d39ea92cd8b91b, type: 2}
+  aerialAimingBlaster: {fileID: 11400000, guid: b64f7d8139229014d93fd6367d0a10c5, type: 2}
+  groundedMelee: {fileID: 11400000, guid: 3aa15d72a979e114894eecd81ae952d2, type: 2}
+  aerialMelee: {fileID: 11400000, guid: b78f6402c01e2db49a61e97c29e57138, type: 2}
+  groundedSpear: {fileID: 11400000, guid: 3eb5de2e252aef8489f26c147e3ee66f, type: 2}
+  aerialMeleeCharge: {fileID: 11400000, guid: c6759776dbd67574bbefe6c49f218760, type: 2}
+  plungingAttack: {fileID: 11400000, guid: 4dcd0ac8a577dbd4bab597fd248886d7, type: 2}
+  meleeCooldown: {fileID: 11400000, guid: 54373ea98a97a484cbba70fdc5c1c4b2, type: 2}
+  rollCooldown: {fileID: 11400000, guid: 56ebb68be3498214ba664a94300912c7, type: 2}

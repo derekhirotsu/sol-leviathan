@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af027ba2b07cfa469cefe2d351dc375, type: 3}
+  m_Name: upgrade_MaxHoverTime
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: Max Aerial Stabilizer Time
+  itemDescription: Increases Aerial Stabilizer use time.
+  maxHoverTime: {fileID: 11400000, guid: 62920b957b677a045bb5efbc4604df48, type: 2}
+  hoverUnlocked:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: f46b10deb4c2bf448940a6e5a1ddc1b5, type: 2}
+  maxHoverTimeUpperBound: 3
+  increaseAmount: 0.5

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ca79f397a8903498ff5c90604c33e8, type: 3}
+  m_Name: Drone Ranged
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 6493265635288995880, guid: 0c01f83a730634b48aa9438fbf96a9b7, type: 3}
+  wallCollisionLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  raycastLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  typeOfDamage: {fileID: 11400000, guid: 60f28917a77ea5845ab9fcef4553c386, type: 2}
+  fireRate: 0.1
+  damage: 1
+  forceImpulse: {x: 0, y: 0, z: 0}
+  numberOfProjectiles: 1
+  deviation: 0.24
+  bulletSpeed: 20
+  bulletScale: 1
+  timeToLive: 2
+  raycastDistance: 20
+  isHitscan: 0
+  UseNewHitboxes: 1

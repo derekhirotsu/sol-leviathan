@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244efb4ab224f2840b35b1acf73379f6, type: 3}
+  m_Name: page_MeleeCombo
+  m_EditorClassIdentifier: 
+  pageHeading: Melee Combo
+  pageKeyboardControls: Press <sprite=4> while on the ground to melee.
+  pageGamepadControls: Press <sprite=3> while on the ground to melee.
+  pageDescription: Perform a slash with your sword. You can string up to 3 slashes
+    together as a combo by repeated pressing the melee button.

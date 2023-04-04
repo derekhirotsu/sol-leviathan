@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e1573b20ea42c4c8d9ccc71b6c6dca, type: 3}
+  m_Name: state_Drone_RetreatWait
+  m_EditorClassIdentifier: 
+  sceneGizmoColor: {r: 1, g: 0, b: 0.77162886, a: 1}
+  timeToLive: 0.3
+  restingState: {fileID: 11400000, guid: 8dd31ff3d2f5645468a945255eff2938, type: 2}
+  canBeRefreshed: 0
+  interruptable: 0
+  finite: 1
+  optimalAngleRange: 360
+  optimalCastDirection: 0
+  optimalLeniency: 2
+  minimumCastLength: 3
+  maximumCastLength: 5

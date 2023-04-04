@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: amp_Toon 4
+  m_Shader: {fileID: 4800000, guid: cd2485f80061fb642a40f325e14b7a95, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 2800000, guid: f6fd89020cb69064284873bac8389967, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ASEOutlineWidth: 0.01
+    - _Float0: 0.42
+    - _RampFalloff: 0.45
+    - _RimOffset: 0.683
+    - _RimPower: 0.01
+    - _SpecularArea: 1
+    - _SpecularIntensity: 0
+    - _SpecularSize: 1
+    - __dirty: 0
+    - _smooth_max: 1
+    - _smooth_min: 0
+    - _spec_Coverage: 1
+    - _spec_exp: 2
+    - _spec_intensity: 1
+    m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RampTint: {r: 0.5453453, g: 0.5981438, b: 0.8962264, a: 1}
+    - _RimTint: {r: 0.20754719, g: 0.11062656, b: 0.11062656, a: 1}
+    - _Tint: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 0}
+  m_BuildTextureStacks: []

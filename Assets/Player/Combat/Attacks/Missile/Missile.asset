@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50918d969165eef459ecc1a09b886b36, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  attackPrefab: {fileID: 6493265635288995880, guid: caae8db574770c641a11e9cdfd54ffe9, type: 3}
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  targetLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  damage:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: a4f6803777bb0694184849e81d864c93, type: 2}
+  damageType: {fileID: 11400000, guid: 60f28917a77ea5845ab9fcef4553c386, type: 2}
+  overrideHitRecoveryTime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: afc6a28433f2559429ccd2cf144ce8b6, type: 2}
+  forceImpulseX:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: d28fb425a39939844bda6fd4efaed86c, type: 2}
+  forceImpulseY:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 12dde5e2f4252b847a3a7e8a99fc0e55, type: 2}
+  timeToLive:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 0705b2447f91cb8448474e77b7abf2fd, type: 2}
+  fireRate:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: b2163381e72be654db063e636acc28cf, type: 2}
+  projectileSpeed:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: d91a7ce4319f92c4c8762de060d97799, type: 2}
+  projectileScale:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 98ab7aefe43d5664b9c50dca9fb4714b, type: 2}
+  deviation:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 209bf303efad1c145b30e1f5342c8661, type: 2}
+  numberOfProjectiles:
+    UseConstant: 0
+    ConstantValue: 1
+    Variable: {fileID: 11400000, guid: f09a33fd1190d9f44a96a8707da370b0, type: 2}

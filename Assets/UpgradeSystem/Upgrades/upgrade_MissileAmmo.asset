@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297371d00086c504983c4fd5338b7e5c, type: 3}
+  m_Name: upgrade_MissileAmmo
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: Ammo Capacity
+  itemDescription: Increase the number of available missiles.
+  missileCapacity: {fileID: 11400000, guid: a03c1c2e6da04294680abb514ae118a4, type: 2}
+  missilesUnlocked:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 9360057e4643ed342a909796ab9b12aa, type: 2}
+  missileCapacityUpperBound: 20
+  increaseAmount: 5

@@ -1,0 +1,3 @@
+rep "2021TestProjectX2@ElderGib@cloud"
+  path "/"
+    smartbranch "/main"

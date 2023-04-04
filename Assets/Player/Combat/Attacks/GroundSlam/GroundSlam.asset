@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486cc3dfd6411f14d9b8cb2d3c2d3288, type: 3}
+  m_Name: GroundSlam
+  m_EditorClassIdentifier: 
+  attackPrefab: {fileID: 6573960911209104460, guid: 86334b25364c2f647825579562154ad5, type: 3}
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  targetLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  damage:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 9f4c52c366d96a046bd701619a34c96f, type: 2}
+  damageType: {fileID: 11400000, guid: f3c7a31690a71fd4c8779531caea6ace, type: 2}
+  overrideHitRecoveryTime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 09183f804a0c4a549a034452b688e3f4, type: 2}
+  forceImpulseX:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 44ce866602afa9e4ba39ca82b96749f7, type: 2}
+  forceImpulseY:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 904f94e7928da264ba179d10d537698b, type: 2}
+  timeToLive:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 00d00638d70fed049b02691c6b6dfbc2, type: 2}
+  windupTime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: b00efa40c1ba2dc4ab630d53734ccf49, type: 2}
+  swingTime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: e60af9be0e71c3242bdba9e97688fc49, type: 2}
+  recoveryTime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 2427cfd4d1184a141b289d3cc347a177, type: 2}
+  moveSpeedWhileStriking:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 3a0b788da21d4304fb1a1e9efb109f31, type: 2}
+  horizontalScale:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 27546f730db70b54baf259d6d0222661, type: 2}
+  verticalScale:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 9abeb0bb33e9a054b8c14ceb36e882b5, type: 2}
+  directionOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: -1, z: 0}

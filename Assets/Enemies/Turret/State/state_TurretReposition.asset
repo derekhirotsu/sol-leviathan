@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c2724e26a706340b9c42a994bf7fe9, type: 3}
+  m_Name: state_TurretReposition
+  m_EditorClassIdentifier: 
+  sceneGizmoColor: {r: 1, g: 0, b: 0.90058327, a: 1}
+  timeToLive: 1
+  restingState: {fileID: 0}
+  canBeRefreshed: 0
+  interruptable: 0
+  finite: 1

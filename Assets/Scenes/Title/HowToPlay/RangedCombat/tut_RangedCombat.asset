@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06ee9cac31558746bbd4bdbbac85d48, type: 3}
+  m_Name: tut_RangedCombat
+  m_EditorClassIdentifier: 
+  pages:
+  - {fileID: 11400000, guid: 332d47718a52fde4baab1dad2dead1bd, type: 2}
+  - {fileID: 11400000, guid: 9a4ad9e36138d4448a64f7170af157fd, type: 2}
+  - {fileID: 11400000, guid: 2ba352476d95610478a044e4722e529b, type: 2}
+  - {fileID: 11400000, guid: f22286a8d37f60c43979f61734d319c8, type: 2}
+  - {fileID: 11400000, guid: 88947359f1074294d8730173c9a5afbb, type: 2}
+  topicTitle: Ranged Combat

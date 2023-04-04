@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283f7d5915bbeb94bbb66cf8c118437b, type: 3}
+  m_Name: cdata_Course3
+  m_EditorClassIdentifier: 
+  Slug: course3
+  DisplayName: Snakes
+  SceneName: Course03
+  CourseComplete: {fileID: 11400000, guid: 4678262400945794a8b5a34e728935d8, type: 2}
+  BestTime: {fileID: 11400000, guid: c926e5fecea98044cb2f633f21e6be6b, type: 2}
+  ParTime: 45

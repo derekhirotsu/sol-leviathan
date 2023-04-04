@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title/menu_Title.unity
+    guid: 21c909f75ec6dbe4fb2ba1f0cc771661
+  - enabled: 0
+    path: Assets/Scenes/MainTest/MainTest.unity
+    guid: 5738ec509372b7646a82b7d7388f30b7
+  - enabled: 1
+    path: Assets/Scenes/TargetCourses/Course01/Course01.unity
+    guid: 79db0726d9d959041831e8095c59816b
+  - enabled: 1
+    path: Assets/Scenes/TargetCourses/Course02/Course02.unity
+    guid: b8efe24ef3040ec479eec269c7097c33
+  - enabled: 1
+    path: Assets/Scenes/TargetCourses/Course03/Course03.unity
+    guid: 9d91fc88ac2e9684fa14758d556c1930
+  - enabled: 1
+    path: Assets/Scenes/TargetCourses/Course04/Course04.unity
+    guid: 2d2b4df862995c743b7f2feef789e10f
+  - enabled: 1
+    path: Assets/Scenes/TargetCourses/Course05/Course05.unity
+    guid: c65b86b807bd9b44988f0bcf0f5e5e11
+  - enabled: 1
+    path: Assets/Scenes/TargetCourses/Course06/Course06.unity
+    guid: 9e9f1db720953a844bb2e23873a00d0d
+  - enabled: 1
+    path: Assets/Scenes/TargetCourses/Course07/Course07.unity
+    guid: 56731f60d905e824193f141a42738cc2
+  - enabled: 1
+    path: Assets/Scenes/TargetCourses/Course08/Course08.unity
+    guid: 2518a05203df9d94ea788c8bfaa78bfa
+  m_configObjects: {}

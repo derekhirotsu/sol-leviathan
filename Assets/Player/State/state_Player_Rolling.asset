@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ef3d39a6723ff4681f3a773f3504d1, type: 3}
+  m_Name: state_Player_Rolling
+  m_EditorClassIdentifier: 
+  sceneGizmoColor: {r: 0.590803, g: 0.062566735, b: 0.6981132, a: 1}
+  timeToLive: 0.37
+  restingState: {fileID: 11400000, guid: 572f2b09ea43d6d47bbdf59f987867cd, type: 2}
+  canBeRefreshed: 0
+  interruptable: 0
+  finite: 1
+  rollInvincibilityFrameDuration: 0.6

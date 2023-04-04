@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323ffa15f477bb14c9e09e855084c2da, type: 3}
+  m_Name: config_Enemy_SniperShot
+  m_EditorClassIdentifier: 
+  meleePrefab: {fileID: 6305606564364027430, guid: f57a24ce142d1124cbf03cfa0e099bd9, type: 3}
+  blockCollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  maxTargetsHit: 0
+  typeOfDamage: {fileID: 11400000, guid: f3c7a31690a71fd4c8779531caea6ace, type: 2}
+  damage: 1
+  forceImpulse: {x: 0, y: 0, z: 0}
+  onHitInvincibilityPeriod: 0
+  windupTime: 0.3
+  swingTime: 0.05
+  recoveryTime: 0.2
+  moveSpeedWhileStriking: 0
+  drawHitbox: 1
+  horizontalScale: 100
+  verticalScale: 1
+  directionOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 1, z: 0}
+  timeToLive: 0.2
+  UseNewHitboxes: 1

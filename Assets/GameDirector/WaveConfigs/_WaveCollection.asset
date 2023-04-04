@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cee4cc84dcafa48ae5e937406b5e96, type: 3}
+  m_Name: _WaveCollection
+  m_EditorClassIdentifier: 
+  currentWave:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 46b2da47755c8784ba01a65144ef4033, type: 2}
+  waveCollection:
+  - budgetPerIncursion: 100
+    numberOfIncursions: 1
+  - budgetPerIncursion: 150
+    numberOfIncursions: 2
+  - budgetPerIncursion: 200
+    numberOfIncursions: 4
+  - budgetPerIncursion: 300
+    numberOfIncursions: 4
+  - budgetPerIncursion: 500
+    numberOfIncursions: 5

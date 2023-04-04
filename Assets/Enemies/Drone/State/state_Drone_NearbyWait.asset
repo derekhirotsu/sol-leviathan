@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6456e52f67b0da94c81e7f813380a6ff, type: 3}
+  m_Name: state_Drone_NearbyWait
+  m_EditorClassIdentifier: 
+  sceneGizmoColor: {r: 0.15739918, g: 0, b: 1, a: 1}
+  timeToLive: 0.2
+  restingState: {fileID: 11400000, guid: edf646f0c425079499e22425c56e658a, type: 2}
+  canBeRefreshed: 0
+  interruptable: 1
+  finite: 1

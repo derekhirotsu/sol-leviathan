@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244efb4ab224f2840b35b1acf73379f6, type: 3}
+  m_Name: page_SpearThrust
+  m_EditorClassIdentifier: 
+  pageHeading: Spear Thrust
+  pageKeyboardControls: While rolling, press <sprite=4> to perform a thrusting attack,
+    which can be aimed with <sprite=26>, <sprite=15>, <sprite=27>, <sprite=16>.
+  pageGamepadControls: While rolling, press <sprite=3> to perform a thrusting attack,
+    which can be aimed with <sprite=11>.
+  pageDescription: A long reaching thrusting move that propells you forward slightly.

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244efb4ab224f2840b35b1acf73379f6, type: 3}
+  m_Name: page_AimingContinued
+  m_EditorClassIdentifier: 
+  pageHeading: Aiming, Continued
+  pageKeyboardControls: Hold <sprite=5> to aim. While aiming, use <sprite=10> to
+    adjust your point of aim.
+  pageGamepadControls: Hold <sprite=19> to aim. While aiming, use <sprite=12> to
+    adjust your point of aim.
+  pageDescription: Aiming while airborne slows your vertical momentum and consumes
+    Stabilizer energy. Once your Stabilizer energy is depleted, you will no longer
+    be able to aim while airborne. This energy recharges once you land on the ground.

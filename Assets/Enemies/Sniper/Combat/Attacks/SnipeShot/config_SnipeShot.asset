@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486cc3dfd6411f14d9b8cb2d3c2d3288, type: 3}
+  m_Name: config_SnipeShot
+  m_EditorClassIdentifier: 
+  attackPrefab: {fileID: 6305606564364027430, guid: 2c8b48775eac59f4596d7c5c0742cae5, type: 3}
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  damage:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  damageType: {fileID: 11400000, guid: 60f28917a77ea5845ab9fcef4553c386, type: 2}
+  overrideHitRecoveryTime:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  forceImpulseX:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  forceImpulseY:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  timeToLive:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  windupTime:
+    UseConstant: 1
+    ConstantValue: 0.3
+    Variable: {fileID: 0}
+  swingTime:
+    UseConstant: 1
+    ConstantValue: 0.05
+    Variable: {fileID: 0}
+  recoveryTime:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  moveSpeedWhileStriking:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  directionOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 1, z: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244efb4ab224f2840b35b1acf73379f6, type: 3}
+  m_Name: page_AirBlast
+  m_EditorClassIdentifier: 
+  pageHeading: Aerial Blast
+  pageKeyboardControls: While aiming mid-air, press <sprite=9> to perform an Aerial
+    Blast.
+  pageGamepadControls: While aiming mid-air, press <sprite=20> to perform an Aerial
+    Blast.
+  pageDescription: Aerial Blast fires a spread of several projectiles fanning out
+    from your point of aim. Moreover, it will propell you opposite from the direction
+    you are aiming, granting a burst of momentum.

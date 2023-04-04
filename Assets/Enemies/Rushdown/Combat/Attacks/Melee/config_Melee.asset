@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486cc3dfd6411f14d9b8cb2d3c2d3288, type: 3}
+  m_Name: config_Melee
+  m_EditorClassIdentifier: 
+  attackPrefab: {fileID: 6573960911209104460, guid: 2fc269e35c2a6904d94cf689c81ff39a, type: 3}
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  targetLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  damage:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  damageType: {fileID: 11400000, guid: f3c7a31690a71fd4c8779531caea6ace, type: 2}
+  overrideHitRecoveryTime:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  forceImpulseX:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  forceImpulseY:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  timeToLive:
+    UseConstant: 1
+    ConstantValue: 0.3
+    Variable: {fileID: 0}
+  windupTime:
+    UseConstant: 1
+    ConstantValue: 0.8
+    Variable: {fileID: 0}
+  swingTime:
+    UseConstant: 1
+    ConstantValue: 0.02
+    Variable: {fileID: 0}
+  recoveryTime:
+    UseConstant: 1
+    ConstantValue: 0.1
+    Variable: {fileID: 0}
+  moveSpeedWhileStriking:
+    UseConstant: 1
+    ConstantValue: 5000
+    Variable: {fileID: 0}
+  directionOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 0, z: 0}

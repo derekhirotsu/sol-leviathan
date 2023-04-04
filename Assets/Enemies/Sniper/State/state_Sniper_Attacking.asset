@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6705c1cf36aab40aba637f77e5f667, type: 3}
+  m_Name: state_Sniper_Attacking
+  m_EditorClassIdentifier: 
+  sceneGizmoColor: {r: 0.18783373, g: 0.290288, b: 0.6320754, a: 1}
+  timeToLive: 2
+  restingState: {fileID: 11400000, guid: 4f3831c1e080be14fb65b684e5d561c2, type: 2}
+  canBeRefreshed: 0
+  interruptable: 0
+  finite: 1

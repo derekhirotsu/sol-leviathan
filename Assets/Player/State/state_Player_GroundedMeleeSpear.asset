@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f4e546b39c395469f417fdbbbe262c, type: 3}
+  m_Name: state_Player_GroundedMeleeSpear
+  m_EditorClassIdentifier: 
+  sceneGizmoColor: {r: 0.10684408, g: 0.2873357, b: 0.46226418, a: 1}
+  timeToLive: 0.5
+  restingState: {fileID: 11400000, guid: 572f2b09ea43d6d47bbdf59f987867cd, type: 2}
+  canBeRefreshed: 0
+  interruptable: 0
+  finite: 1
+  speedReductionWhileStriking: 0.8

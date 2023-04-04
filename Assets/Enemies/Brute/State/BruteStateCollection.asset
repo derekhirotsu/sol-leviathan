@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c79e08bb6b19594e9edd92a6f9c4d9e, type: 3}
+  m_Name: BruteStateCollection
+  m_EditorClassIdentifier: 
+  idle: {fileID: 11400000, guid: 6842931b0560ad44cb8b5c7aa6e6bf01, type: 2}
+  chase: {fileID: 0}
+  nearbyChase: {fileID: 0}
+  attackCooldown: {fileID: 0}
+  ambush: {fileID: 0}
+  lightningChannelState: {fileID: 11400000, guid: d855fca4da99d2e4e850efb63ee0ac4f, type: 2}
+  seekerChannelState: {fileID: 11400000, guid: a306b9bd8e1379045a67d425242d1eb5, type: 2}

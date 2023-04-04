@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f186cb6e8983be743a202e63f16db3cc, type: 3}
+  m_Name: state_Drone_GetPositionNearTarget
+  m_EditorClassIdentifier: 
+  sceneGizmoColor: {r: 1, g: 0, b: 0.854969, a: 1}
+  timeToLive: 0.1
+  restingState: {fileID: 11400000, guid: a6b1c14dc7469c748a4c560af62f70c6, type: 2}
+  canBeRefreshed: 0
+  interruptable: 1
+  finite: 1
+  optimalAngleRange: 150
+  optimalCastDirection: 0
+  optimalLeniency: 2
+  minimumCastLength: 4
+  maximumCastLength: 7

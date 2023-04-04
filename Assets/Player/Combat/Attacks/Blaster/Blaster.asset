@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6e8620e9ad4c5641bf36fa7888a8561, type: 3}
+  m_Name: Blaster
+  m_EditorClassIdentifier: 
+  attackPrefab: {fileID: 6493265635288995880, guid: f46e7f4942165ae4da8d6cea5163a06c, type: 3}
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  targetLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  damage:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 87179ddb14bed874e83a344498202190, type: 2}
+  damageType: {fileID: 11400000, guid: 60f28917a77ea5845ab9fcef4553c386, type: 2}
+  overrideHitRecoveryTime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 03b488c6eee32e443979231668255231, type: 2}
+  forceImpulseX:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 4096874f6817616478a80a2408a8359d, type: 2}
+  forceImpulseY:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: db51992352ef53c4488fe02b3a135adb, type: 2}
+  timeToLive:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 75bd0b8dd925e6244960ef822031cc00, type: 2}
+  vfx_ImpactParticle: {fileID: 2649636762424911546, guid: df3592f6b8a2c3e49a5d6d59ee03fe72, type: 3}
+  fireRate:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: fa5d5810591f8e74b96ab9e00b01a9be, type: 2}
+  raycastDistance:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: ea736aeac41d8c14385ad415dd526365, type: 2}
